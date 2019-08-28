@@ -1,0 +1,32 @@
+C:\usr\xtensa\XtDevTools\install\tools\RI-2019.1-win32\XtensaTools\bin\xt-run --xtensa-core=hifi3_bd5 --xtensa-system=C:\usr\xtensa\XtDevTools\install\builds\RI-2019.1-win32\hifi3_bd5\config --xtensa-params= --console --summary --client=C:\usr\xtensa\Xplorer-8.0.10-workspaces\workspace\Equalizer\bin\hifi3_bd5\Release\_gen_d\profile\Auto\p_0\iss.clientcmds C:\usr\xtensa\Xplorer-8.0.10-workspaces\workspace\Equalizer\bin\hifi3_bd5\Release\Equalizer
+
+Xtensa Core: "hifi3_bd5"  ISS Version: 14.01
+
+Time for Simulation = 112.64 seconds
+
+Current PC = 0x60008ebf
+
+Events                             Number  Number
+                                           per 100
+                                           instrs 
+
+Committed instructions          62232456 ( 100.00 )
+Taken branches                   1017603 (   1.64 )
+Exceptions                          9961 (   0.02 )
+   WindowUnderflow                  4980 (   0.01 )
+   WindowOverflow                   4981 (   0.01 )
+Loads                           28115684 (  45.18 )
+Stores                          13300305 (  21.37 )
+
+Cycles: total = 64709897
+                                                  Summed |          Summed
+                                          CPI      CPI   |% Cycle  % Cycle
+Committed instructions        62232456 ( 1.0000   1.0000 |  96.17    96.17 )
+Taken branches                 2065070 ( 0.0332   1.0332 |   3.19    99.36 )
+Pipeline interlocks              89622 ( 0.0014   1.0346 |   0.14    99.50 )
+Exceptions                       49805 ( 0.0008   1.0354 |   0.08    99.58 )
+Sync replays                       585 ( 0.0000   1.0354 |   0.00    99.58 )
+Special instructions             22894 ( 0.0004   1.0358 |   0.04    99.61 )
+Loop overhead                   249460 ( 0.0040   1.0398 |   0.39   100.00 )
+Reset                                5 ( 0.0000   1.0398 |   0.00   100.00 )
+

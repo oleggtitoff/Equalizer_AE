@@ -1,0 +1,37 @@
+**** Incremental Build [Thu, 22 Aug 2019 13:48:00] ****
+ Project: Equalizer
+ Configuration: hifi3_bd5
+ Build Target: Release
+********************************
+
+"C:\\usr\\xtensa\\XtDevTools\\install\\tools\\RI-2019.1-win32\\XtensaTools\\bin\\xt-xcc" -c -g -O3 -OPT:Olimit=0 -fmessage-length=0 -I "\"C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Test_AE\"" -I "\"C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Task7_AE\"" -I "\"C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Equalizer\"" -DPROC_hifi3_bd5 -DCONFIG_hifi3_bd5 --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/hifi3_bd5/config --xtensa-core=hifi3_bd5 --xtensa-params= "\"C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Task7_AE/Tables.c\"" -o "\"C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Equalizer/bin/hifi3_bd5/Release/Tables.o\"" 
+Time taken: 1615 ms 
+
+"C:\\usr\\xtensa\\XtDevTools\\install\\tools\\RI-2019.1-win32\\XtensaTools\\bin\\xt-xcc" -c -g -O3 -OPT:Olimit=0 -fmessage-length=0 -I "\"C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Test_AE\"" -I "\"C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Task7_AE\"" -I "\"C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Equalizer\"" -DPROC_hifi3_bd5 -DCONFIG_hifi3_bd5 --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/hifi3_bd5/config --xtensa-core=hifi3_bd5 --xtensa-params= "\"C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Equalizer/main.c\"" -o "\"C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Equalizer/bin/hifi3_bd5/Release/main.o\"" 
+Time taken: 2372 ms 
+
+"C:\\usr\\xtensa\\XtDevTools\\install\\tools\\RI-2019.1-win32\\XtensaTools\\bin\\xt-xcc" -c -g -O3 -OPT:Olimit=0 -fmessage-length=0 -I "\"C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Test_AE\"" -I "\"C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Task7_AE\"" -I "\"C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Equalizer\"" -DPROC_hifi3_bd5 -DCONFIG_hifi3_bd5 --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/hifi3_bd5/config --xtensa-core=hifi3_bd5 --xtensa-params= "\"C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Equalizer/EQ.c\"" -o "\"C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Equalizer/bin/hifi3_bd5/Release/EQ.o\"" 
+Time taken: 2732 ms 
+
+"C:\\usr\\xtensa\\XtDevTools\\install\\tools\\RI-2019.1-win32\\XtensaTools\\bin\\xt-xc++" -Wl,@C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Equalizer/bin/hifi3_bd5/Release/objfiles.list -o C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Equalizer/bin/hifi3_bd5/Release/Equalizer.minsize -mlsp=sim -Wl,-r -nostdlib --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/hifi3_bd5/config --xtensa-core=hifi3_bd5 --xtensa-params= 
+Time taken: 523 ms 
+
+"C:\\usr\\xtensa\\XtDevTools\\install\\tools\\RI-2019.1-win32\\XtensaTools\\bin\\xt-xc++" -Wl,@C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Equalizer/bin/hifi3_bd5/Release/objfiles.list -o C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Equalizer/bin/hifi3_bd5/Release/Equalizer -mlsp=sim --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/hifi3_bd5/config --xtensa-core=hifi3_bd5 --xtensa-params= 
+Time taken: 746 ms 
+
+******* Code size summary *****
+
+"C:\\usr\\xtensa\\XtDevTools\\install\\tools\\RI-2019.1-win32\\XtensaTools\\bin\\xt-size" -C C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Equalizer/bin/hifi3_bd5/Release/Equalizer 
+TYPE   	   text	 rodata	   data	    bss	    dec    hex	filename
+code   	  36425	      0	      0	      0	  36425	   8e49	C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Equalizer/bin/hifi3_bd5/Release/Equalizer
+literal	   1036	      0	      0	      0	   1036	    40c	C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Equalizer/bin/hifi3_bd5/Release/Equalizer
+other  	   1123	   3764	    904	   1144	   6935	   1b17	C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Equalizer/bin/hifi3_bd5/Release/Equalizer
+Total  	  38584	   3764	    904	   1144	  44396	   ad6c	C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Equalizer/bin/hifi3_bd5/Release/Equalizer
+
+Time taken: 330 ms 
+
+******* ************** *****
+
+Build successful !!
+Total time taken: 4.511 secs
+**** Build Finished [Thu, 22 Aug 2019 13:48:04] ****
