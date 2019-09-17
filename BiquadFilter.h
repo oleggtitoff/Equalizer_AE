@@ -108,7 +108,7 @@ ALWAYS_INLINE Status initBiquadFilter(BiquadParams *biquadParams,
 									  BiquadCoeffs *biquadCoeffs,
 									  BiquadStates *biquadStates, int sampleRate)
 {
-	Status status = statusError;
+	Status status = statusOK;
 
 	status |= initBiquadParams(biquadParams, sampleRate);
 	status |= initBiquadCoeffs(biquadCoeffs);
